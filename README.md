@@ -4,7 +4,7 @@
 
 This document contains information on how the Akachain documentation is
 built and published as well as a few conventions one should be aware of
-before making changes to the doc.
+before making changes to the doc
 
 The crux of the documentation is written in
 [reStructuredText](http://docutils.sourceforge.net/rst.html) which is
