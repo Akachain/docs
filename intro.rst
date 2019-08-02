@@ -1,5 +1,3 @@
-.. contents:: Table of Contents
-
 Introduction    
 ============
 
@@ -30,4 +28,4 @@ The Akachain Plaform includes 3 core layers as depicted in the picture above.
 At the lowest layer, the Akachain platform runs on top of **Hyperledger Fabric**. 
 Each business runs their own private Distributed Ledger, either hosted on Amazon Web Service or on-premise cloud. 
 
-Akachain provides centralized Ordering Service using Apache Kafka and Identity Service using RootCA to reduce the cost of running those individual ledgers. However, 
+Akachain provides centralized Ordering Service using Apache Kafka and Identity Service using RootCA to reduce the cost of running those individual ledgers. However, it is possible for businesses to run their own Ordering service  
