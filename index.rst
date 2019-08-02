@@ -16,8 +16,9 @@ Indeed, we have to consider that many of the current blockchain technology platf
 Inspired by such challenges, we introduce `Akachain <https://akachain.io/>`_, a blockchain-as-a-service solution that brings the power of the blockchain to modern businesses. Akachain simplifies the development and managing a private blockchain system by providing automatic deployment solution on different cloud infrastructure, ready-made business application templates and professional support services.
 
 .. toctree::
-   :maxdepth: 2
-
-   intro
-
+   :maxdepth: 3
+    
+    intro
+    
+    member
 .. note:: If you have questions that are not addressed by this documentation, please send us an email at: admin@akachain.io
