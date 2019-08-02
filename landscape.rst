@@ -16,21 +16,24 @@ Akachain provides centralized Ordering Service using Apache Kafka and Identity S
 
 On top of the stock Hyperledger Fabric, Akachain provides several Software Development Kits (SDKs) that accelerate the process of applications development on Akachain:
 
-1. AKC - Golang SDK: https://github.com/Akachain/akc-go-sdk, The Golang SDK offers a number libraries to help with writing Golang based chaincode on Hyperledger Fabric. Notables lirabries are: Advance Unit Test SDK, High Throughput SDK and High Secure SDK.
+**AKC - Golang SDK**: https://github.com/Akachain/akc-go-sdk, The Golang SDK offers a number libraries to help with writing Golang based chaincode on Hyperledger Fabric. Notables lirabries are: Advance Unit Test SDK, High Throughput SDK and High Secure SDK.
 
-2. AKC - NodeJS SDK: https://github.com/Akachain/akc-node-sdk, The NodeJS SDK provides several libraries to assist writing Decentralized Applications (DApp) using NodeJS on Akachain. 
+**AKC - NodeJS SDK**: https://github.com/Akachain/akc-node-sdk, The NodeJS SDK provides several libraries to assist writing Decentralized Applications (DApp) using NodeJS on Akachain. 
 
-3. AKC - DataSync Module: DApp template that periodically synchronizes Hyperledger Fabric transactions to an external PostgreSQL database to allow better data analytic functions.
+**AKC - DataSync Module**: DApp template that periodically synchronizes Hyperledger Fabric transactions to an external PostgreSQL database to allow better data analytic functions.
 
 2.2. Middleware and Tools
 -------------------------
 
 We provide a number of pre-built Middleware and tools support developers and network administrators to develop/deploy/monitor blockchain applications and private Fabric network.
 
-1. Development Toolkit: Take your time and try our `development tool <https://accounts.akachain.io/login?redirectUrl=https://dev.akachain.io&description=Development%20Tool>`_. The tool allows developers to write and upload their chaincode directly to Akachain Test Network with 2 peers. It also automatically exposes REST APIs for DApp to call to those deployed chaincodes.
-2. Wallet Management: Akachain provides 
-3. Blockchain Monitoring Toolkit:
-4. network Management Toolkit:
+**Development Toolkit**: Take your time and try our `development tool <https://accounts.akachain.io/login?redirectUrl=https://dev.akachain.io&description=Development%20Tool>`_. The tool allows developers to write and upload their chaincode directly to Akachain Test Network with 2 peers. It also automatically exposes REST APIs for DApp to call to those deployed chaincodes.
+
+**Wallet Management**: Akachain accounts are linked to customer public keys. 
+
+**Blockchain Monitoring Toolkit**:
+
+**Network Management Toolkit**:
 
 2.3. Industry Solutions and Templates
 -------------------------------------
