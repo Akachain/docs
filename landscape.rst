@@ -29,11 +29,17 @@ We provide a number of pre-built Middleware and tools support developers and net
 
 **Development Toolkit**: Take your time and try our `development tool <https://accounts.akachain.io/login?redirectUrl=https://dev.akachain.io&description=Development%20Tool>`_. The tool allows developers to write and upload their chaincode directly to Akachain Test Network with 2 peers. It also automatically exposes REST APIs for DApp to call to those deployed chaincodes.
 
-**Wallet Management**: Akachain accounts are linked to customer public keys. 
+**Wallet Management**: Akachain accounts are linked to customer public keys. Currently this tool behaves like a normal cryptocurrency wallet. It allow users having Akachain account to access several public services such as Development Toolkit Portal and Network Monitoring tools for our test network.
 
-**Blockchain Monitoring Toolkit**:
+**Blockchain Monitoring Toolkit**: Akachain provides a number of monitoring tools such as Network Explorer, Network Log Toolkit (Kibana), Prometheus, Graphana for critical components that work out of the box. 
 
-**Network Management Toolkit**:
+**Network Management Toolkit**: Akachain provides automated network management tools that support automatic application deployment on private network via CI/CD, automatic Hyperledger Fabric network deployment, chaincode installation/upgrade, etc. 
 
 2.3. Industry Solutions and Templates
 -------------------------------------
+
+Akachain provides a number of ready-made industrial solution templates from multiple domains: Loyalty and Rewards Network, Retail Solution, Financial Services, Health and Insurance and Manufacturing Traceability. They are template solutions that have already been developed and tested on our platform. Thus, they require only a small modification to be ready for production.
+
+Among our industrial templates, we are proud to present one of the first blockchain-based Loyalty / Rewards Network & E-Payment solution in Southeast Asia: Utop (https://utop.vn/). Utop currently has around 6000 users in Vietnam and 4000 transactions per day. Gift redeemption and payment using Utop is widely accepted at all major merchants in Vietnam.
+
+.. note:: To get more information about our industrial solutions and templates, please send us an email at: admin@akachain.io
