@@ -21,5 +21,6 @@ Inspired by such challenges, we introduce `Akachain <https://akachain.io/>`_, a 
     intro
     landscape
     architecture
+    microservice
 
 .. note:: If you have questions that are not addressed by this documentation, please send us an email at: admin@akachain.io
