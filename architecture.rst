@@ -14,11 +14,11 @@ On a high level, the Akachain network includes 3 main components:
 
 3. Privacy Preserving Bridge Protocol: We develop a customized protocol to link private chains and Governance Chain together. 
 
-3.1. PrivateChain
------------------
+3.1. Private Chain
+------------------
 
-3.2. GovernanceChain
---------------------
+3.2. Governance Chain
+---------------------
 
 3.3. Bridge Protocol
 --------------------
