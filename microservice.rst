@@ -15,7 +15,7 @@ For AWS environment, we use the implementation of K8S on AWS (Amazon EKS). For o
 
 In the Hyperledger Fabric universe, or more general, in a consortium blockchain network model, each consortium is composed by a group of **organizations**. An organization may have multiple **peers** that simultaneously send transactions created by the organization or receive/validate/endorse transactions from other organizations. The picture below describes the organization structure of a typical consortium blockchain system using Akachain platform.
 
-.. image:: images/Slide1.png 
+.. image:: images/slide1.png 
             :height: 400px
 
 Following sections describe the high level microservice architecture of a typical organization in one of Akachain private consortium. Generally, we provide 2 K8S for each organization:
@@ -28,7 +28,7 @@ We now describe a more detail about each cluster architecture using Amazon EKS. 
 4.2. Organization Blockchain Cluster
 ------------------------------------
 
-.. image:: images/Slide3.png 
+.. image:: images/slide3.png 
             :height: 400px
 
 Starting with the Blockchain Cluster, each cluster requires at least 7 microservices:
@@ -59,7 +59,7 @@ From the networking point of view. Each cluster is mapped to one VPC. There are 
 4.3. Organization Application Cluster
 -------------------------------------
 
-.. image:: images/Slide4.png 
+.. image:: images/slide4.png 
             :height: 400px
 
 The Application Cluster follows the same architecture as the blockchain cluster. There is only a slight different in terms of microservices. Overall, we have 2 main group of microservices:
@@ -76,7 +76,7 @@ We also use MySQL in some microservices in the application cluster
 4.4. Interaction between clusters
 ---------------------------------
 
-.. image:: images/Slide2.png 
+.. image:: images/slide2.png 
             :height: 400px
 
 
@@ -92,7 +92,7 @@ The Data Sync service in the blockchain cluster subscribes to various blockchain
 
 4.5. Interaction among organizations
 
-.. image:: images/Slide5.png 
+.. image:: images/slide5.png 
             :height: 400px
 
 By joinning a blockchain channel, all peers in the blockchain clusters can install Chaincodes and start communicating with each others.
